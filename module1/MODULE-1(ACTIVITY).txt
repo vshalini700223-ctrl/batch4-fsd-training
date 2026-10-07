@@ -1,0 +1,204 @@
+MODULE-1 CLASSROOM ACTIVITY
+
+ACTIVITY 1: HOW THE INTERNET WORKS
+
+The Internet is a global network that allows computers and devices to communicate with each other. Whenever we open a website or use an online application, several components work together to process our request and provide the required information.
+
+The main components involved are client/browser, web server, application server, and database.
+
+1. Client / Browser
+
+The client is the device used by the user, such as a laptop, desktop, or smartphone. A web browser such as Chrome, Edge, or Firefox acts as the interface between the user and the website.
+
+For example, when a user enters a website address, the browser sends a request to the appropriate server.
+
+2. Web Server
+
+The web server receives the request from the browser and determines what information or service is required. It processes requests for webpages, images, files, and other resources.
+
+For dynamic websites, the web server may forward the request to the backend or application server.
+
+3. Backend / Application Server
+
+The backend contains the business logic of the application. It processes the user's request and decides what operation should be performed.
+
+For example, in an online shopping application, when a user clicks "Place Order", the backend verifies product availability, calculates the price, processes the order, and communicates with the database.
+
+4. Database
+
+A database stores application information in an organized manner. It may contain user details, login information, product information, orders, payments, feedback, and transaction records.
+
+The backend communicates with the database to retrieve, insert, update, or delete information.
+
+5. Response
+
+After processing the request, the server sends a response back to the browser. The browser interprets the response and displays the required webpage or information to the user.
+
+Simple Flow:
+User → Browser → Web Server → Backend → Database → Backend → Web Server → Browser → User
+
+Example:
+Suppose a student logs into a college portal.
+
+1. The student enters username and password.
+2. The browser sends the login request to the server.
+3. The backend receives the request.
+4. The backend checks the student's details in the database.
+5. The database returns the result.
+6. The backend verifies the credentials.
+7. The server sends a response.
+8. The browser displays the student's dashboard.
+
+Thus, the Internet works through communication between clients, servers, applications, and databases.
+
+
+ACTIVITY 2: LOGIC BUILDING CHALLENGE
+
+Logic building is an important programming skill used to solve problems systematically. Before writing actual code, a programmer should understand the problem, identify the required inputs and outputs, and design a logical sequence of steps.
+
+Two important tools used for logic building are flowcharts and pseudocode.
+
+Flowchart:
+A flowchart is a graphical representation of an algorithm. It uses standard symbols to represent different operations.
+
+Common symbols include:
+• Oval – Start/End
+• Parallelogram – Input/Output
+• Rectangle – Processing
+• Diamond – Decision
+• Arrow – Flow direction
+
+Flowcharts help programmers understand the complete flow of a program before implementation.
+
+Pseudocode:
+Pseudocode is a simple way of writing program logic using normal English-like statements. It does not follow the exact syntax of a programming language.
+
+Example: Finding the largest of two numbers
+
+START
+Input A and B
+IF A > B
+    Display A
+ELSE
+    Display B
+END
+
+Example: Student Grade Calculation
+
+Suppose we need to determine whether a student has passed or failed.
+
+Steps:
+1. Start the program.
+2. Read the student's marks.
+3. Check whether marks are greater than or equal to the passing mark.
+4. If yes, display "Pass".
+5. Otherwise, display "Fail".
+6. Stop the program.
+
+Pseudocode:
+
+START
+Input marks
+IF marks >= 40
+    Display "Pass"
+ELSE
+    Display "Fail"
+END
+
+Importance of Logic Building:
+• Helps programmers understand problems clearly.
+• Breaks complex problems into smaller steps.
+• Reduces programming errors.
+• Helps create efficient solutions.
+• Improves decision-making and problem-solving skills.
+• Helps convert real-world problems into computer programs.
+
+Therefore, developing the logic first makes the actual coding process easier and more accurate.
+
+
+ACTIVITY 3: REAL-WORLD SCENARIO MAPPING
+
+Real-world applications are usually developed using multiple interconnected components. The three major components of a modern application are frontend, backend, and database.
+
+1. Frontend
+
+The frontend is the part of an application that users can see and interact with.
+
+It may include:
+• Buttons
+• Menus
+• Forms
+• Images
+• Search bars
+• Login pages
+• Product pages
+• Dashboards
+
+Common frontend technologies include HTML, CSS, JavaScript, React, and Angular.
+
+For example, in an online shopping application, the product page, shopping cart, and checkout page are part of the frontend.
+
+2. Backend
+
+The backend works behind the scenes. Users normally do not directly see the backend.
+
+It handles:
+• Business logic
+• User authentication
+• Data processing
+• API requests
+• Order processing
+• Security
+• Communication with databases
+
+Technologies such as Node.js, Java, Python, PHP, and .NET can be used to develop backend applications.
+
+3. Database
+
+The database stores the application's information permanently or for the required duration.
+
+Examples of databases include:
+• MySQL
+• PostgreSQL
+• MongoDB
+• Oracle
+• SQL Server
+
+For an online shopping application, the database may store customer details, product details, orders, and payment-related records.
+
+Example: Food Delivery Application
+
+Consider a food delivery platform.
+
+Frontend:
+The user can search for restaurants, view food items, add food to the cart, enter an address, place an order, and track the order.
+
+Backend:
+When the user places an order, the backend:
+1. Receives the order request.
+2. Checks restaurant and item availability.
+3. Calculates the total amount.
+4. Creates the order.
+5. Processes the required operations.
+6. Updates the order status.
+7. Sends the result to the frontend.
+
+Database:
+The database stores:
+• User accounts
+• Restaurant details
+• Food items
+• Cart information
+• Orders
+• Delivery details
+• Order status
+
+Complete Flow:
+User → Frontend → Backend/API → Database
+
+The result then travels back:
+Database → Backend → Frontend → User
+
+CONCLUSION
+
+Real-world applications depend on the cooperation of frontend, backend, and database components. The frontend provides the user interface, the backend performs processing and business logic, and the database stores and manages information. Understanding this architecture helps students understand how the applications they use every day actually work.

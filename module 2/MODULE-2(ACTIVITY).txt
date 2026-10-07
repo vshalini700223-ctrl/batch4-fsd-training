@@ -1,0 +1,156 @@
+MODULE 2 – CLASSROOM ACTIVITY
+
+ACTIVITY 1: RESPONSIVE LAYOUT DESIGN
+
+Responsive layout design is an important part of modern web development.
+A responsive webpage automatically adjusts its layout, size, and content
+according to the screen size of the device. This allows users to access
+the website comfortably on desktops, laptops, tablets, and mobile
+phones.
+
+The main purpose of responsive design is to provide a good user
+experience on different devices without creating separate websites for
+each screen size.
+
+Important Features of Responsive Design:
+
+• Flexible layouts • Flexible images and content • Media queries •
+Mobile-friendly navigation • Proper spacing and readable text •
+Adaptation to different screen sizes
+
+Example:
+
+A college event portal may contain several event cards such as:
+
+1.  Technical Events
+2.  Cultural Events
+3.  Sports Events
+4.  Workshops
+
+On a desktop screen, these cards can be displayed side by side. On a
+mobile screen, the cards can automatically move one below another.
+
+Responsive Design Flow:
+
+Desktop → Multiple Columns Tablet → Fewer Columns Mobile → Single Column
+
+Importance of Responsive Design:
+
+• Makes websites mobile-friendly. • Improves user experience. • Allows
+the same website to work on different devices. • Reduces the need for
+separate mobile websites. • Makes webpages easier to access and
+navigate.
+
+Therefore, responsive layout design helps create websites that are
+flexible, accessible, and suitable for different screen sizes.
+
+ACTIVITY 2: INTERACTIVE FORM DEVELOPMENT
+
+Interactive forms are used to collect information from users. Forms are
+commonly used for registration, login, feedback, contact, application,
+and event registration.
+
+An interactive form allows the user to enter information and provides
+feedback based on the entered values. Form validation is used to check
+whether the information provided by the user is correct and complete.
+
+Common Form Fields:
+
+• Name • Email • Phone number • Password • Address • Date • Gender •
+Submit button
+
+Form Validation:
+
+Form validation checks the information entered by the user before
+submitting the form.
+
+For example:
+
+1.  Check whether the name is entered.
+2.  Check whether the email is valid.
+3.  Check whether the phone number is correct.
+4.  Check whether required fields are filled.
+5.  Display an error message if the information is invalid.
+6.  Display a success message if the information is valid.
+
+Example:
+
+Consider a college event registration form.
+
+The student enters:
+
+Name: Rahul Email: rahul@gmail.com Phone: 9876543210
+
+After submitting the form, the application checks the entered
+information. If all required details are correct, the message
+“Registration Successful” can be displayed.
+
+Importance of Interactive Forms:
+
+• Collects user information. • Provides immediate feedback. • Prevents
+incorrect data. • Improves user experience. • Makes websites more
+interactive. • Helps applications process user input.
+
+Therefore, interactive forms are an important part of web applications
+because they allow users to communicate and provide information to the
+application.
+
+ACTIVITY 3: DOM MANIPULATION WORKSHOP
+
+DOM stands for Document Object Model. It represents the structure of an
+HTML webpage as objects. JavaScript can use the DOM to access and modify
+webpage elements dynamically.
+
+DOM manipulation allows developers to change the content, style,
+attributes, and structure of a webpage based on user actions.
+
+Common DOM Operations:
+
+• Select an HTML element • Change text content • Change HTML content •
+Change styles • Add elements • Remove elements • Handle button clicks •
+Handle form submissions
+
+Example:
+
+Suppose a webpage contains a heading:
+
+Welcome
+
+When the user clicks a button, JavaScript can change the heading to:
+
+Welcome to College Events
+
+This change happens without reloading the entire webpage.
+
+DOM Manipulation Flow:
+
+User Action → JavaScript Event → DOM Element → Content Updated
+
+Common JavaScript Methods:
+
+1.  getElementById() – selects an element using its ID.
+2.  querySelector() – selects an HTML element.
+3.  innerHTML – changes HTML content.
+4.  textContent – changes text content.
+5.  style – changes the style of an element.
+
+Example Scenario:
+
+In a college event portal, when a student clicks the Register button:
+
+1.  The button click is detected.
+2.  JavaScript processes the event.
+3.  The DOM is updated.
+4.  A registration message is displayed.
+5.  The user receives immediate feedback.
+
+Importance of DOM Manipulation:
+
+• Makes webpages interactive. • Allows dynamic content updates. •
+Responds to user actions. • Improves user experience. • Allows
+JavaScript to communicate with HTML elements. • Helps create interactive
+web applications.
+
+Therefore, DOM manipulation is an important concept in JavaScript
+because it allows developers to dynamically control and update webpage
+content based on user interactions.

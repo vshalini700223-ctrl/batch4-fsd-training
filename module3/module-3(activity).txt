@@ -1,0 +1,13 @@
+MODULE 3 – CLASSROOM ACTIVITIES
+
+Activity 1: API Data Retrieval
+Students use a public API to retrieve data and display it dynamically on a webpage. For example, a weather API can be used to show the current temperature, location, and weather condition. JavaScript fetch() is used to request the data and update the webpage.
+
+Activity 2: Team Collaboration Simulation
+Students work together as a development team using Git and GitHub. Each member creates a separate branch, makes changes, and pushes the code. Pull requests are used to merge changes, and team members perform code reviews to check the quality of the code.
+
+Activity 3: Debugging Challenge
+Students identify and fix intentionally introduced errors in JavaScript applications. They use browser developer tools and console messages to find syntax errors, logical errors, and runtime errors. The main goal is to understand how debugging helps improve application reliability.
+
+Take-Home Assignment
+Create a small JavaScript application that consumes a public API and displays the retrieved information on a webpage. The application should have a simple user-friendly interface and handle errors properly. Students should also use Git to maintain and submit their project.
